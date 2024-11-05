@@ -1,0 +1,17 @@
+/* TODO */
+button {
+    padding: 30px;
+    background-color: #F8A99D;
+    border: 13px solid #7A342A ;
+    border-radius: 40px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 50px;
+}
+button:hover {
+    background-color: #f8a99d83;
+    border: 13px solid #7a352a89;
+    color: black;
+    cursor: pointer;
+}

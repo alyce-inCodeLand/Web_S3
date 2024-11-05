@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    width: 100%;
+    background-color: #D4F6FF;
+}
+.all {
+    display: flex;  
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    background-color: white;
+    width: 250px;
+    padding: 40px;
+    display: flex;
+}
+.box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 7px #C6E7FF, -3px -3px 7px #C6E7FF;
+    /* box-shadow: 3px 3px 7px rgb(236, 234, 234), -3px -3px 7px rgb(227, 225, 225); */
+    border-radius: 10px;
+}
+.profile {
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+.text, .number{
+    font-family: "Poppins";  
+    font-size: 12px;  
+    margin-bottom: 0;
+    text-align: center;
+}
+#role {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    color: rgb(78, 78, 78);
+}
+#name {
+    font-family: "grandstander";
+    font-weight: bold;
+    color: rgb(55, 55, 149);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.cadt {
+    color: rgb(27, 17, 99);
+    font-weight: bold;
+    text-decoration: none;
+}
+.cadt:hover {
+    color: rgb(155, 10, 10);
+}
+.all_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.info {
+    text-align: center;
+    margin: 15px;
+}
+.number {
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: rgb(67, 67, 67);
+}
+a {
+    text-decoration: none;
+}
+.contact {
+    display: flex;
+}
+.sm {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 8px;
+    width: 35px;
+    height: 35px;
+    background-color: #9fd4fb;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.101);
+}
+.sm:hover {
+    background-color: #5187ae;
+    cursor: pointer;
+}
+.logo {
+    width: 20px;
+}
+#quote {
+    margin-bottom: 15px;
+}
+.linkedin {
+    height: 35px;
+    border-radius: 10px;
+    align-items: center;
+    font-family: "poppins";
+    font-weight: bold;
+    background-color: #d9eefd;
+    color: rgb(68, 68, 68);
+    border: none;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+.linkedin:hover {
+    background-color: #a6daff;
+    cursor: pointer;
+}
